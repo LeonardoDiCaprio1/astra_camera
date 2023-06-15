@@ -24,7 +24,7 @@ This package supports ROS Kinetic and Melodic.
 4. Pull the repository into your ROS workspace
     ```sh
     cd ~/catkin_ws/src
-    git clone https://github.com/orbbec/ros_astra_camera
+    git clone https://github.com/LeonardoDiCaprio1/astra_ws_camera.git
     ```
 
 5. Create astra udev rule
