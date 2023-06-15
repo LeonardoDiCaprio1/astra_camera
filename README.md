@@ -36,7 +36,7 @@ cd astra_ws
 source devel/setup.bash
 roslaunch astra_camera astra.launch
 ```
--新建窗口
+- 新建窗口
 ```
 sudo apt update
 sudo apt install ros-noetic-rqt-image-view
