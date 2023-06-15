@@ -20,15 +20,15 @@ sudo apt install ros-noetic-rgbd-launch
 ```
 3. 操作过程
 ```
-   mkdir -p ~/astra_ws/src && cd ~/catkin_ws/
-   git clone https://github.com/LeonardoDiCaprio1/astra_ws_camera.git
-   cd ..
-   catkin_make
-   source devel/setup.bash
-   roscd astra_camera/
-   chmod 777 scripts/create_udev_rules
-   ./scripts/create_udev_rules
-   sudo service udev restart
+mkdir -p ~/astra_ws/src && cd ~/catkin_ws/
+git clone https://github.com/LeonardoDiCaprio1/astra_ws_camera.git
+cd ..
+catkin_make
+source devel/setup.bash
+roscd astra_camera/
+chmod 777 scripts/create_udev_rules
+./scripts/create_udev_rules
+sudo service udev restart
 ```
 4.执行过程
 ```
