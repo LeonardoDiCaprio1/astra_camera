@@ -7,7 +7,7 @@
 这个安装包主要介绍ROS Noetic版本。
 
 1. 鱼香ros
-- 选择第一个选项一键安装安装ROS，在选择安装国内镜像源并清理第三方源，安装ROS1 Noetic版本，最后选择桌面版。
+- 选择第一个选项一键安装安装ROS，在选择安装国内镜像源并清理第三方源，再安装ROS1 Noetic版本，最后选择桌面版。
 ```
 wget http://fishros.com/install -O fishros && . fishros 
 ```
