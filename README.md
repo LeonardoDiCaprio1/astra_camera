@@ -18,6 +18,7 @@ wget http://fishros.com/install -O fishros && . fishros
 sudo apt-get update
 sudo apt-get install libuvc-dev
 sudo apt install ros-noetic-rgbd-launch
+sudo apt install ros-noetic-rqt-image-view
 ```
 3. 操作过程
 ```
@@ -37,9 +38,7 @@ cd astra_ws
 source devel/setup.bash
 roslaunch astra_camera astra.launch
 ```
-- 新建窗口
+5.新建窗口
 ```
-sudo apt update
-sudo apt install ros-noetic-rqt-image-view
 rqt_image_view
 ```
