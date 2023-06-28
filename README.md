@@ -22,7 +22,7 @@ sudo apt install ros-noetic-rqt-image-view
 ```
 3. 操作过程
 ```
-mkdir -p ~/astra_ws/src && cd ~/catkin_ws/
+mkdir -p ~/astra_ws/src && cd ~/catkin_ws/src
 git clone https://github.com/LeonardoDiCaprio1/astra_ws_camera.git
 cd ..
 catkin_make
