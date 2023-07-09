@@ -20,6 +20,16 @@ sudo apt-get install libuvc-dev
 sudo apt install ros-noetic-rgbd-launch
 sudo apt install ros-noetic-rqt-image-view
 ```
+- 如果出现CMakeLists.txt第四行报错请执行以下指令
+```
+sudo apt-get install ros-noetic-camera-info-manager
+sudo apt-get install ros-noetic-dynamic-reconfigure
+sudo apt-get install ros-noetic-image-transport
+sudo apt-get install ros-noetic-nodelet
+sudo apt-get install ros-noetic-sensor-msgs
+sudo apt-get install ros-noetic-roscpp
+sudo apt-get install ros-noetic-message-generation
+```
 3. 操作过程
 ```
 mkdir -p ~/astra_ws/src && cd ~/catkin_ws/src
